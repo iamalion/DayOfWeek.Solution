@@ -8,7 +8,15 @@ namespace DayOfWeek.Models
 
         public DayOfWeekClass(string dateString)
         {
-            date = DateTime.Parse(dateString);
+            try 
+            {
+                date = DateTime.Parse(dateString);
+            }
+            catch (FormatException)
+            {
+                throw new InvalidOperationException("There was an error.");
+            }
+            
         }
 
         public string GetWeekday()
@@ -40,5 +48,6 @@ namespace DayOfWeek.Models
             }
             return dayString;
         }
+        
     }
 }
