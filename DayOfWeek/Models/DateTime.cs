@@ -14,7 +14,7 @@ namespace DayOfWeek.Models
             }
             catch (FormatException)
             {
-                throw new InvalidOperationException("There was an error.");
+                throw new InvalidOperationException("Try a different date.");
             }
             
         }
