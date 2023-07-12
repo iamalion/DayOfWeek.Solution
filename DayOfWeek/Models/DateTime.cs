@@ -25,18 +25,18 @@ namespace DayOfWeek.Models
                 case System.DayOfWeek.Tuesday:
                     dayString = "Tuesday";
                     break;
-                // case System.DayOfWeek.Wednesday:
-                //     dayString = "Wednesday";
-                //     break;
-                // case System.DayOfWeek.Thursday:
-                //     dayString = "Thursday";
-                //     break;
-                // case System.DayOfWeek.Friday:
-                //     dayString = "Friday";
-                //     break;
-                // case System.DayOfWeek.Saturday:
-                //     dayString = "Saturday";
-                //     break;
+                case System.DayOfWeek.Wednesday:
+                    dayString = "Wednesday";
+                    break;
+                case System.DayOfWeek.Thursday:
+                    dayString = "Thursday";
+                    break;
+                case System.DayOfWeek.Friday:
+                    dayString = "Friday";
+                    break;
+                case System.DayOfWeek.Saturday:
+                    dayString = "Saturday";
+                    break;
             }
             return dayString;
         }
