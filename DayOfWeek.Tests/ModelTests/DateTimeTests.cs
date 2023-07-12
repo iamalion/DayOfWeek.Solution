@@ -8,10 +8,11 @@ namespace DayOfWeek.Tests
 public class DateTimeTests 
     {
         [TestMethod]
+
         public void GetWeekday_ReturnsCorrectWeekday()
         {
-            string inputDate = "March 23, 1986";
-            string expectedWeekday = "Sunday";
+            string inputDate = "March 24, 1986";
+            string expectedWeekday = "Monday";
 
             DayOfWeekClass dayOfWeek = new DayOfWeekClass(inputDate);
 
@@ -19,6 +20,5 @@ public class DateTimeTests
 
             Assert.AreEqual(expectedWeekday, actualWeekday);
         }
-        
     }
 }
