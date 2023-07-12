@@ -11,8 +11,8 @@ public class DateTimeTests
 
         public void GetWeekday_ReturnsCorrectWeekday()
         {
-            string inputDate = "March 24, 1986";
-            string expectedWeekday = "Monday";
+            string inputDate = "March 25, 1986";
+            string expectedWeekday = "Tuesday";
 
             DayOfWeekClass dayOfWeek = new DayOfWeekClass(inputDate);
 

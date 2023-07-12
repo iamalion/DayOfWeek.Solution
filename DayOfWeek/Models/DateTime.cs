@@ -22,9 +22,9 @@ namespace DayOfWeek.Models
                 case System.DayOfWeek.Monday:
                     dayString = "Monday";
                     break;
-                // case System.DayOfWeek.Tuesday:
-                //     dayString = "Tuesday";
-                //     break;
+                case System.DayOfWeek.Tuesday:
+                    dayString = "Tuesday";
+                    break;
                 // case System.DayOfWeek.Wednesday:
                 //     dayString = "Wednesday";
                 //     break;
